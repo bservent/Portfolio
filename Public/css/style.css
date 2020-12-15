@@ -1,6 +1,4 @@
-body {
-  background-color: purple;
-}
+
 .site-footer
 {
   background-color:#26272b;
@@ -163,4 +161,10 @@ body {
     margin-right:0;
     font-weight:600
   }
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  opacity: .8;
 }
