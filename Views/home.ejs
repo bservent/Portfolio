@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brittany Servent Portfolio</title>
+    <title>Brittany Servent-Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
@@ -13,11 +13,52 @@
 </head>
 <body>
 
-    <%- include('./navbar.ejs') %> 
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <nav class="nav nav-masthead justify-content-center" >
+              <div class="nav">
+                  <a  id="nav" class="nav-link active" href="{% url 'browse' %}">Projects</a>
+              </div>
+              <div>
+                  <a id="sign-in"class="nav-link" href="{% url 'signin' %}">About</a>
+              </div>
+              <div>
+                <a id="sign-in"class="nav-link" href="{% url 'signin' %}">Contact</a>
+            </div>
+          
+            </nav>
+          </div>
+        </header>
+      
+        <main role="main" class="inner cover">
+           <div class="image-container">
+              <img class="logo" src="../images/cornicello.jpg" alt="photo">
+          </div>
+          <hr class="title-border"/>
+          <h1 class="cover-heading">Be. Bold.</h1>
+          <hr class="title-border"/>
+          <div class="intro">
+            <h3 class="lead">In a world of ordinary make sure you’re the extraordinary. </h3>
+          </div>
+          <div class="hero">
+            <div class="typing">
+                <h1>Meet Britt. 
+                    <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ "Full-Stack Web Developer.", "Designer.", "Trapeze-Artist." ]'></span>
+                </h1>
+            </div>
+        </div>
+          <p class="lead">
+            <a href="#" id="learn-more" class="btn btn-lg btn-secondary">Learn more</a>
+          </p>
+          
+        </main>
 
 <div class="hero">
     <div class="typing">
-        <h1>BRITTANY JEAN SERVENT</h1>
         <h1>
             <span
             class="txt-rotate"
