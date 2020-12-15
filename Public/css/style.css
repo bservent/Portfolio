@@ -1,3 +1,17 @@
+
+.hero {
+  height: 100vh;
+  background-image: url(../images/joao-lucas-stutz-Z_l4wohJ6VM-unsplash.jpg);
+  background-size: cover;
+}
+
+.typing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+}
+
 html,body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
