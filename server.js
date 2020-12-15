@@ -4,6 +4,10 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
+//-------- MIDDLEWARE ---------------//
+//Serve Styling Files
+app.use(express.static(`${__dirname}/public`));
+
 app.get('/', (req, res) => {
   res.render('home')
 });
