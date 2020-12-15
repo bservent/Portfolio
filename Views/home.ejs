@@ -21,7 +21,7 @@
                   <a  id="nav" class="nav-link active" href="{% url 'browse' %}">Projects</a>
               </div>
               <div>
-                  <a id="sign-in"class="nav-link" href="{% url 'signin' %}">About</a>
+                  <a id="nav"class="nav-link" href="{% url 'signin' %}">About</a>
               </div>
               <div>
                 <a id="sign-in"class="nav-link" href="{% url 'signin' %}">Contact</a>
@@ -32,16 +32,26 @@
         </header>
       
         <main role="main" class="inner cover">
-           <div class="image-container">
-              <img class="logo" src="../images/cornicello.jpg" alt="photo">
-          </div>
-          <hr class="title-border"/>
-          <h1 class="cover-heading">Be. Bold.</h1>
-          <hr class="title-border"/>
-          <div class="intro">
-            <h3 class="lead">In a world of ordinary make sure you’re the extraordinary. </h3>
-          </div>
-          <div class="hero">
+            <div class="hero">
+                <div class="typing">
+                    <h1>Meet Britt. 
+                        <span
+                        class="txt-rotate"
+                        data-period="2000"
+                        data-rotate='[ "Full-Stack Web Developer.", "Designer.", "Trapeze-Artist." ]'></span>
+                    </h1>
+                </div>
+                <div class="image-container">
+                   <img class="logo" src="../images/cornicello.jpg" alt="photo">
+               </div>
+               <hr class="title-border"/>
+               <h1 class="cover-heading">Be. Bold.</h1>
+               <hr class="title-border"/>
+               <div class="intro">
+                 <h3 class="lead">In a world of ordinary make sure you’re the extraordinary. </h3>
+               </div>
+            </div>
+ <!--          <div class="hero">
             <div class="typing">
                 <h1>Meet Britt. 
                     <span
@@ -50,23 +60,12 @@
                     data-rotate='[ "Full-Stack Web Developer.", "Designer.", "Trapeze-Artist." ]'></span>
                 </h1>
             </div>
-        </div>
+        </div> -->
           <p class="lead">
             <a href="#" id="learn-more" class="btn btn-lg btn-secondary">Learn more</a>
           </p>
           
         </main>
-
-<div class="hero">
-    <div class="typing">
-        <h1>
-            <span
-            class="txt-rotate"
-            data-period="2000"
-            data-rotate='[ "Let the tour begin", "" ]'></span>
-        </h1>
-    </div>
-</div>
 
     <%- include('./footer.ejs') %>
 
