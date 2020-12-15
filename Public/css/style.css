@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.slogan {
+  max-width: 12rem !important;
+  max-height: auto;
+}
 #nav {
   border-right: 1.5px solid #343A3C;
   opacity: .9;
@@ -71,7 +75,7 @@ margin: 1em !important;
   max-width: 30%;
   height: auto;
   border-radius: 10%;
-  border: 2px solid #989E9E;
+  border: 2.5px solid #52A68E;
   opacity: .9;
 
 }
@@ -108,7 +112,9 @@ margin: 1em !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20%;
+  padding: 2%;
+  background-color:  #F6FAFA;
+  opacity: .9;
 }
 
 html,body {
