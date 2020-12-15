@@ -1,12 +1,16 @@
 
 .hero {
-  height: 100vh;
-  background-image: url(../images/joao-lucas-stutz-Z_l4wohJ6VM-unsplash.jpg);
+  background-image: url("../images/smoke.png"), linear-gradient(315deg, #55efc4 0%, #000000 74%);
+  background-color: #000000;
+  opacity: .9;
+  min-height: 100wh;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .typing {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20%;
