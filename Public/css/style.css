@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Quantico', sans-serif !important;
+}
+
+b {
+  padding: 4px;
+}
 nav{
   display: flex;
   justify-content: center;
@@ -18,7 +25,7 @@ nav{
 }
 
 .slogan {
-  max-width: 10rem !important;
+  max-width: 15rem !important;
   max-height: auto;
   display: inline-block !important;
 }
@@ -45,7 +52,7 @@ nav{
 }
 
 header {
-  background-color:#52A68E;
+  background-color:#D6CFBF;
   opacity: .9;
   padding: .5rem;
   display: flex;
@@ -86,17 +93,16 @@ margin: .5em !important;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
 }
 
 .logo {
   max-width: 30%;
   height: auto;
   border-radius: 10%;
-  border: 2.5px solid #35393C;
-  opacity: .9;
-  margin: 6rem -30rem 6rem 6rem;
-  padding: 2rem;
+  border: 3px solid #35393C;
+  margin: 6rem -40rem 6rem 6rem;
+  opacity: 1;
+  padding: 1rem;
   position: relative;
 }
 
@@ -117,7 +123,7 @@ margin: .5em !important;
 }
 
 .hero {
-  background-image: url("../images/smoke.png"), linear-gradient(315deg, #55efc4 0%, #000000 74%);
+  background-image: url("../images/smoke.png"), linear-gradient(315deg, #D6CFBF 0%, #000000 74%);
   background-color: #000000;
   opacity: .9;
   min-height: 100wh;
