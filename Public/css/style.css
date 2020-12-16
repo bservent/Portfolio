@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Quantico', sans-serif !important;
+  color: #343A3C;
 }
 
 b {
@@ -25,9 +26,11 @@ nav{
 }
 
 .slogan {
-  max-width: 15rem !important;
-  max-height: auto;
-  display: inline-block !important;
+  max-width: 72rem !important;
+  font-size: .80rem;
+  color: #343A3C !important;
+  padding: .5em;
+  opacity: .9;
 }
 
 #nav {
@@ -42,17 +45,8 @@ nav{
   opacity: .9;
 } 
 
-.title-border {
-  border-top: 2px solid #4A34A0;
-  border-radius: 4%;
-  width: 19%;
-  margin-top: 0rem;
-  margin-bottom: 0rem; 
-  opacity: .8;
-}
-
 header {
-  background-color:#D6CFBF;
+  background-color:#F6FAFA;
   opacity: .9;
   padding: .5rem;
   display: flex;
@@ -96,13 +90,15 @@ margin: .5em !important;
 }
 
 .logo {
-  max-width: 30%;
+  max-width: 75%;
   height: auto;
-  border-radius: 10%;
-  border: 3px solid #35393C;
-  margin: 6rem -40rem 6rem 6rem;
-  opacity: 1;
+  border-radius: 25px;
+  border: 4px solid #FFC0CB;
+  display: flex;
+  opacity: 1.2;
+  flex-direction: column;
   padding: 1rem;
+  top: 4rem;
   position: relative;
 }
 
@@ -123,8 +119,8 @@ margin: .5em !important;
 }
 
 .hero {
-  background-image: url("../images/smoke.png"), linear-gradient(315deg, #D6CFBF 0%, #000000 74%);
-  background-color: #000000;
+  background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
+  background-color: #343A3C;
   opacity: .9;
   min-height: 100wh;
   background-size: cover;
@@ -147,12 +143,12 @@ margin: .5em !important;
   
 }
 
-html,body {
+/* html,body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  background: #222;
-  color: #aaa;
-}
+  background: #343A3C;
+  color: #343A3C;
+} */
 
 h1,h2 {
   font-weight: 200;
@@ -160,7 +156,7 @@ h1,h2 {
 }
 h1 { font-size: 3.5em; }
 h2 {
-  color: #888;
+  color:#343A3C;
   font-size: 2em;
 }
 
