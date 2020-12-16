@@ -52,6 +52,9 @@ header {
   display: flex;
 }
 
+footer a {
+  color: #F6FAFA;
+}
 a {
   color: #343A3C !important;
   font-size: 18px;
@@ -139,15 +142,6 @@ margin: .5em !important;
   padding: 3rem 6rem 6rem 6rem;
   margin: 3rem;
   color: #F6FAFA;
-}
-
-.about {
-  opacity: .9;
-  min-height: 100wh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
 }
 
 .typing {
