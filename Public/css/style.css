@@ -58,7 +58,7 @@ a {
 }
 
 a:hover {
-  background-color:#343A3C !important;
+  background-color:#4CA19C!important;
   border-radius: 5% !important;
   transition: .6s;
   color: #F6FAFA !important;
@@ -115,7 +115,7 @@ margin: .5em !important;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2em 10em 1em 10em;
+  margin: 4em 10em 1em 10em;
 }
 
 .hero {
@@ -128,6 +128,26 @@ margin: .5em !important;
   padding: 0;
   margin: 0;
   border: 3px solid #35393C;
+}
+
+.projects {
+  background-color: #343A3C;
+  opacity: .9;
+  min-height: 100wh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 6rem 6rem 6rem;
+  margin: 3rem;
+  color: #F6FAFA;
+}
+
+.about {
+  opacity: .9;
+  min-height: 100wh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
 }
 
 .typing {
