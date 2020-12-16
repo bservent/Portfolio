@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 nav{
@@ -77,7 +78,7 @@ border: 2px solid #989E9E;
 }
 
 h3 {
-margin: 1em !important;
+margin: .5em !important;
 }
 
 .image-container {
@@ -92,9 +93,11 @@ margin: 1em !important;
   max-width: 30%;
   height: auto;
   border-radius: 10%;
-  border: 2.5px solid #52A68E;
+  border: 2.5px solid #35393C;
   opacity: .9;
-
+  margin: 6rem -30rem 6rem 6rem;
+  padding: 2rem;
+  position: relative;
 }
 
 .cover-heading {
@@ -122,6 +125,7 @@ margin: 1em !important;
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  border: 3px solid #35393C;
 }
 
 .typing {
@@ -132,6 +136,9 @@ margin: 1em !important;
   padding: 2%;
   background-color:  #F6FAFA;
   opacity: .9;
+  margin-top: 8rem;
+  position: absolute;
+  
 }
 
 html,body {
