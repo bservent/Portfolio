@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brittany Servent-Portfolio</title>
+    <title>Brittany Servent | Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
@@ -32,13 +32,13 @@
                 </div>
             <nav class="nav nav-masthead justify-content-center" >
               <div class="nav">
-                  <a  id="nav" class="nav-link active" href="{% url 'browse' %}">Projects</a>
+                  <a  id="nav" class="nav-link active" href="#projects">Projects</a>
               </div>
               <div>
-                  <a id="nav"class="nav-link" href="{% url 'signin' %}">About</a>
+                  <a id="nav"class="nav-link" href="#about">About</a>
               </div>
               <div>
-                <a id="sign-in"class="nav-link" href="{% url 'signin' %}">Contact</a>
+                <a id="sign-in"class="nav-link" href="#contact">Contact</a>
             </div>
           
             </nav>
@@ -56,7 +56,7 @@
         <main role="main" class="inner cover">
             <div class="projects">
                 <div class="project-header">
-                    <h1>PROJECTS</h1>
+                    <h1 id="projects">PROJECTS</h1></a>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -135,7 +135,7 @@
             </div>
         </main>
         <main role="main" class="inner cover">
-            <div class="about">
+            <div class="about" id="about">
                 <div class="image-container">
                    <img class="poster" src="../images/brittflyer.png" alt="photo">
                </div>
@@ -150,9 +150,9 @@
                 <div id="row-contact" class="row">
                     <div id="contact" class="col-md-4 col-sm-6 col-xs-12">
                         <ul class="social-icons">
-                            <li><a id="email" class="email" href=""><img src="../images/email.png" alt=""><i class="fa fa-email"></i></a></li>
-                            <li><a id="linkedin" class="linkedin" href="#"><img src="../images/linkedin.png" alt=""><i class="fa fa-linkedin"></i></a></li>
-                            <li><a id="github" class="github" href="#"><img src="../images/github.png" alt=""><i class="fa fa-github"></i></a></li>   
+                            <li><a id="email" target="_blank" class="email" href="mailto:bservent@gmail.com"><img src="../images/email.png" alt=""><i class="fa fa-email"></i></a></li>
+                            <li><a id="linkedin" target="_blank" class="linkedin" href="https://www.linkedin.com/in/brittany-servent/"><img src="../images/linkedin.png" alt=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a id="github" target="_blank" class="github" href="https://github.com/bservent"><img src="../images/github.png" alt=""><i class="fa fa-github"></i></a></li>   
                         </ul>
                     </div>
                 </div>
