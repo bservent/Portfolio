@@ -173,6 +173,7 @@ margin: .5em !important;
 .card-text {
   background-color: #FFC7D0;
   padding: .5rem;
+  opacity: 1.0 !important;
 }
 
 .contact {
