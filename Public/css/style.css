@@ -95,6 +95,10 @@ a:hover {
   background-color: #FFC7D0!important;
 }
 
+.project-img {
+  opacity: 1;
+}
+
 .intro {
 display: flex;
 flex-direction: row;
@@ -151,7 +155,7 @@ margin: .5em !important;
 .hero {
   background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
   background-color: #343A3C;
-  opacity: .9;
+  opacity: .8;
   min-height: 100wh;
   background-size: cover;
   background-repeat: no-repeat;
