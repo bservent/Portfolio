@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
   res.render('home')
 });
 
+app.get('/resume', (req, res) => {
+  res.render('resume')
+});
+
 app.listen(3500, () => {
   console.log("Working off port 3500");
 });
