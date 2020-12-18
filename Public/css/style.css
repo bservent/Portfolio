@@ -170,6 +170,11 @@ margin: .5em !important;
   max-width: 100%;
 }
 
+.card-text {
+  background-color: #FFC7D0;
+  padding: .5rem;
+}
+
 .contact {
   background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
   background-color: #343A3C;
@@ -199,6 +204,10 @@ margin: .5em !important;
   padding: 3rem 6rem 6rem 6rem;
   margin: 3rem;
   color: #F6FAFA;
+}
+
+#card {
+  color: #343A3C !important;
 }
 
 .typing {
