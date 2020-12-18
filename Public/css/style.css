@@ -72,6 +72,17 @@ a:hover {
   color: #F6FAFA !important;
 }
 
+#email:hover {
+  background-color: #FFC7D0!important;
+}
+
+#linkedin:hover {
+  background-color: #FFC7D0!important;
+}
+#github:hover {
+  background-color: #FFC7D0!important;
+}
+
 .intro {
 display: flex;
 flex-direction: row;
@@ -139,28 +150,34 @@ margin: .5em !important;
 
 .about {
   background-color: #2C2731;
-  opacity: .9;
+  padding: 8rem 0rem 8rem 0rem;
+}
+
+.poster {
+  display: flex;
   max-width: 100%;
-  max-height: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 1rem 0rem 8rem 0rem;
-  margin: 0;
-  border: 3px solid #35393C;
 }
 
 .contact {
-  background-color: #F7FBFB;
+  background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
+  background-color: #343A3C;
   opacity: .9;
   max-width: 100%;
   max-height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 1rem 0rem 8rem 0rem;
-  margin: 0;
   border: 3px solid #35393C;
+  padding-bottom: 5rem;
 }
 
+#contact {
+  position: relative;
+}
+
+#row-contact {
+  display: flex;
+  justify-content: center;
+}
 .projects {
   background-color: #343A3C;
   opacity: .9;
@@ -184,13 +201,6 @@ margin: .5em !important;
   position: absolute;
   
 }
-
-/* html,body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  background: #343A3C;
-  color: #343A3C;
-} */
 
 h1,h2 {
   font-weight: 200;
