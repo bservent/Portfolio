@@ -52,6 +52,18 @@ header {
   display: flex;
 }
 
+.tent {
+  max-width: 15%;
+  max-height: auto;
+  padding: 0rem 0rem 0rem 5rem !important;
+  position: absolute;
+  margin-bottom: 8rem !important;
+}
+
+#footer-about {
+  padding-left: 0rem !important;
+}
+
 .technologies {
   color:#737373 !important;
 }
