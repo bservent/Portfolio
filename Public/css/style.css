@@ -4,72 +4,14 @@
 }
 
 body {
-  font-family: 'Quantico', sans-serif !important;
+  font-family: 'Quantico', sans-serif;
   color: #343A3C;
 }
 
-b {
-  padding: 4px;
-}
-nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: right;
-  position: absolute;
-  right: 2%;
-  top: 4.5%;
-}
-#header {
-  display: inline-block;
-  padding: 0;
-}
-
-.slogan {
-  max-width: 72rem !important;
-  font-size: .80rem;
-  color: #343A3C !important;
-  padding: .5em;
-  opacity: .9;
-}
-
-#nav {
-  border-right: 1.5px solid #343A3C;
-  opacity: .9;
-}
-
-#learn-more {
-  color: #F6FAFA !important;
-  border: none;
-  margin-bottom: 1.5em;
-  opacity: .9;
-} 
-
-header {
-  background-color:#F6FAFA;
-  opacity: .9;
-  padding: .5rem;
-  display: flex;
-}
-
-.tent {
-  max-width: 15%;
+img {
+  max-width: 100%;
   max-height: auto;
-  padding: 0rem 0rem 0rem 5rem !important;
-  position: absolute;
-  margin-bottom: 8rem !important;
-}
-
-#footer-about {
-  padding-left: 0rem !important;
-}
-
-.technologies {
-  color:#737373 !important;
-}
-
-.quick {
-  color:#737373 !important;
+  opacity: .8;
 }
 
 a {
@@ -84,45 +26,80 @@ a:hover {
   color: #F6FAFA !important;
 }
 
-#email:hover {
-  background-color: #FFC7D0!important;
-}
-
-#linkedin:hover {
-  background-color: #FFC7D0!important;
-}
-#github:hover {
-  background-color: #FFC7D0!important;
-}
-
-.project-img {
-  opacity: 1;
-}
-
-.intro {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-background-color: #35393C;
-border-radius: 25px;
-color: #F6FAFA;
-max-width: 66%;
-opacity: 8;
-margin: 2em 2em 2em 15em;
-border: 2px solid #989E9E;
-}
-
-h3 {
-margin: .5em !important;
-}
-
 .image-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
+/********************* Header ********************/
+
+header {
+  background-color:#F6FAFA;
+  opacity: .9;
+  padding: .5rem;
+  display: flex;
+}
+
+b {
+  padding: 4px;
+}
+
+nav {
+  position: absolute;
+  right: 1.5rem;
+  top: 2.5rem;
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+
+#nav {
+  border-right: 1.5px solid #343A3C;
+  opacity: .9;
+}
+
+/********************* Hero ********************/
+
+.hero {
+  background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
+  opacity: .9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #35393C;
+}
+
+/******************* Projects ********************/
+
+.projects {
+  background-color: #343A3C;
+  opacity: .9;
+  padding: 3rem 6rem 6rem 6rem;
+  margin: 3rem;
+  color: #F6FAFA;
+}
+
+.card-text {
+  background-color: #FFC7D0;
+  padding: .5rem;
+  opacity: 1.0 !important;
+}
+
+.project-img {
+  opacity: 1;
+}
+
+/******************* About ********************/
+
+.about {
+  background-color: #2C2731;
+  padding: 8rem 0rem 8rem 0rem;
+}
+
+/******************* Contact ********************/
 
 .logo {
   max-width: 75%;
@@ -136,59 +113,9 @@ margin: .5em !important;
   position: relative;
 }
 
-.cover-heading {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 0rem;
-}
-
-.lead {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 4em 10em 1em 10em;
-}
-
-.hero {
-  background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
-  background-color: #343A3C;
-  opacity: .8;
-  min-height: 100wh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
-  border: 3px solid #35393C;
-}
-
-.about {
-  background-color: #2C2731;
-  padding: 8rem 0rem 8rem 0rem;
-}
-
-.poster {
-  display: flex;
-  max-width: 100%;
-}
-
-.card-text {
-  background-color: #FFC7D0;
-  padding: .5rem;
-  opacity: 1.0 !important;
-}
-
 .contact {
   background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
   background-color: #343A3C;
-  opacity: .9;
-  max-width: 100%;
-  max-height: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 3px solid #35393C;
   padding-bottom: 5rem;
 }
 
@@ -200,96 +127,59 @@ margin: .5em !important;
   display: flex;
   justify-content: center;
 }
-.projects {
-  background-color: #343A3C;
-  opacity: .9;
-  min-height: 100wh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 3rem 6rem 6rem 6rem;
-  margin: 3rem;
-  color: #F6FAFA;
-}
 
-#card {
-  color: #343A3C !important;
-}
+/******************* Footer ********************/
 
-.typing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2%;
-  background-color:  #F6FAFA;
-  opacity: .9;
-  margin-top: 8rem;
+.tent {
+  max-width: 11%;
+  max-height: auto;
+  padding: 0rem 0rem 0rem 0rem !important;
   position: absolute;
-  
+  margin-bottom: 6rem !important;
+  border: 2px solid #989E9E;
 }
 
-h1,h2 {
-  font-weight: 200;
-  margin: 0.4em 0;
-}
-h1 { font-size: 3.5em; }
-h2 {
-  color:#343A3C;
-  font-size: 2em;
+.quick {
+  color:#737373 !important;
 }
 
-.site-footer
-{
+.site-footer {
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
 }
-.site-footer hr
-{
+
+.site-footer hr{
   border-top-color:#bbb;
   opacity:0.5
 }
-.site-footer hr.small
-{
+
+.site-footer hr.small {
   margin:20px 0
 }
-.site-footer h6
-{
+
+.site-footer h6 {
   color:#fff;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
 }
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
+
+.footer-links {
   padding-left:0;
   list-style:none
 }
-.footer-links li
-{
+.footer-links li {
   display:block
 }
-.footer-links a
-{
+
+.footer-links a {
   color:#737373
 }
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
+
 .footer-links.inline li
 {
   display:inline-block
@@ -306,7 +196,7 @@ h2 {
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:#F6FAFA;
 }
 .copyright-text
 {
@@ -382,8 +272,16 @@ h2 {
   }
 }
 
-img {
-  max-width: 100%;
-  max-height: auto;
-  opacity: .8;
+/**************** Social Icons *****************/
+
+#email:hover {
+  background-color: #FFC7D0!important;
+}
+
+#linkedin:hover {
+  background-color: #FFC7D0!important;
+}
+
+#github:hover {
+  background-color: #FFC7D0!important;
 }
