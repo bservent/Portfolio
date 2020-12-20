@@ -79,17 +79,22 @@ h1,h2 {
   opacity: .9;
   padding: 3rem 6rem 6rem 6rem;
   margin: 3rem;
-  color: #F6FAFA;
+  color:#F6FAFA;
 }
 
 .card-text {
   background-color: #FFC7D0;
+  color: #343A3C;
   padding: .5rem;
   opacity: 1.0 !important;
 }
 
 .project-img {
   opacity: 1;
+}
+
+h5 {
+  color:#343A3C;
 }
 
 /******************* About ********************/
@@ -281,5 +286,56 @@ h1,h2 {
     display:block;
     margin-right:0;
     font-weight:600
+  }
+}
+
+/****************** Responsive *******************/
+
+@media screen and (max-width: 700px) {
+  body {
+    background-size: auto;
+  }
+
+  .slogan {
+   display: none;
+  }
+
+  .hero {
+    margin-top: 70px;
+  }
+
+  .nav-link {
+    padding-right: 1rem;
+  }
+
+  .trapeze {
+    display: none;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: center;
+  }
+  .projects {
+    padding: 0;
+    margin: 2rem 0 0 0;
+    background-color: #F6FAFA;
+    color:#35393C;
+  }
+  
+  .card {
+    border: 3px solid #35393C;
+  }
+
+  .about {
+    padding: 4rem 0 0 0;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .tent {
+    display: none;
   }
 }
